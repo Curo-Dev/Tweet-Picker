@@ -1,0 +1,17 @@
+{
+  "name": "Tweet-Picker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "http": "^0.0.0",
+    "morgan": "^1.9.1",
+    "node-sass-middleware": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "prettier": "^1.19.1"
+  }
+}
