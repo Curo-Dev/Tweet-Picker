@@ -61,5 +61,5 @@ typings/
 .next
 
 # ignore sass compilation result
-public/css/*.css
-public/css/*.css.map
+src/public/css/*.css
+src/public/css/*.css.map
