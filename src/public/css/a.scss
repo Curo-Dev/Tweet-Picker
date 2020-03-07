@@ -16,6 +16,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 150px;
 
     .title {
       color: #00acee9e;
@@ -27,21 +28,44 @@ body {
       margin: 0;
     }
 
-    input.form-input {
+    div.form-box {
       width: 500px;
       height: 35px;
+      display: flex;
       border: 1px solid #00acee3b;
       border-radius: 50px;
-      font-size: 20px;
       padding: 10px 20px;
       margin: 60px 0px;
-
       -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 172, 238, 0.57);
       -moz-box-shadow: 0px 0px 18px 0px rgba(0, 172, 238, 0.57);
       box-shadow: 0px 0px 18px 0px rgba(0, 172, 238, 0.57);
 
-      &:focus {
-        outline: none;
+      input {
+        width: 500px;
+        height: 35px;
+        border: none;
+        font-size: 18px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button.form-submit {
+        width: 35px;
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+
+        i {
+          color: #000000ba;
+          font-size: 20px;
+        }
+
+        &:focus {
+          outline: none;
+        }
       }
     }
   }
