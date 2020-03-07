@@ -2,8 +2,6 @@ import 'reflect-metadata'
 
 import express from 'express'
 import path from 'path'
-import logger from 'morgan'
-import helmet from 'helmet'
 
 import sassMiddleware from 'node-sass-middleware';
 
